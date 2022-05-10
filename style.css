@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    color: gold;
+}
+
+h1{
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+.izquierda{
+    float: left;
+    background-color: antiquewhite;
+}
+
+.alineacionDerecha{
+    text-align: right;
+}
