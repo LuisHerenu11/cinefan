@@ -16,6 +16,11 @@ div {
     background-color: antiquewhite;
 }
 
+.derecha{
+    float: right;
+    background-color: antiquewhite;
+}
+
 .alineacionDerecha{
     text-align: right;
 }
