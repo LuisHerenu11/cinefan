@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(0, 0, 0);
+    border: goldenrod 6px dashed;
+    color: goldenrod;
+    /*
+        background-image: url("https://previews.123rf.com/images/smarques27/smarques271401/smarques27140100002/25280448-dise%C3%B1o-de-vector-de-cartelera-de-cine-en-blanco.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        nota: Esto lo desactive porque no me convencia, en un futuro proximo seguro retomo el proyecto y ajusto el contenido a la imagen o tomo un fragmento y armo algo que tengo en mente.
+    */
+}
+header{
+    background-color:blanchedalmond;
+    text-align: center;
+}
+
+span{
+    font-family: fantasy;
+    color:chartreuse;
+}
+
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+textarea{
+    border-color: goldenrod;
+    border-width: 2px;
+}
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

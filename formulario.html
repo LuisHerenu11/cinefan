@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="styleF.css" text="text/css">
+</head>
+<body>
+    <header>
+        <h1>
+            FORMULARIO  
+        </h1>
+    </header>
+    <form action="mailto:luismarcelo.herenu.@estudiantes.unahur.edu.ar" method="post">
+        <h2><strong><u>COMPLETAR CON DATOS PERSONALES</u></strong></h2>
+        <label for="nombre">Nombre:</label>
+        <input id="nombre" type="text" name="nombre">
+        <br>
+        <br>
+        <label for="apellido">Apellido:</label></label>
+        <input id="apellido" type="text" name="apellido">
+        <br>
+        <br>
+        <label for="edad">Edad:</label>
+        <input id="edad" type="number" name="edad">
+        <br>
+        <br>
+        <label for="rb1 rb2 rb3 rb4">Sexo:</label>
+        <br>
+        <input id="rb1" type="radio" name="sexo"> Femenino</label>
+        <input id="rb2" type="radio" name="sexo"> Masculino</label>
+        <input id="rb3" type="radio" name="sexo"> No binario</label>
+        <input id="rb4" type="radio" name="sexo"> Otros</label>
+        <br>
+        <br>
+        <textarea name="descripcionDeOtros" rows="4" cols="82">Si lo desea puede describir su Sexo aqui...</textarea>
+        <br> 
+        <br>
+        <label>
+            Tipo de Documento:
+            <input list="documentos" name="miDocumento">
+        </label>
+        <datalist id="documentos">
+            <option value="Documento Nacional de Identidad">
+            <option value="Libreta Civica">
+            <option value="Libreta de Enrolamiento">
+            <option value="Cédula de Indentidad">    
+        </datalist>
+        <label for="doc">Numero Documento:</label>
+        <input id="doc" type="number" name="doc">
+        
+        <h2><strong><u>PELICULAS VISTAS</u></strong></h2>
+        <p><b>NOTA:</b></strong> Por favor marque <span>solamente</span> aquellas peliculas que ha visto <strong>completamente.</strong></i></p>
+        <input id="cb1" type="checkbox" name="peliculas">
+        <label for="cb1"> EL SEÑOR DE LOS ANILLOS </label> 
+        <br>
+        <input id="cb2" type="checkbox" name="peliculas">
+        <label for="cb2"> EL PADRINO </label> 
+        <br>
+        <input id="cb3" type="checkbox" name="peliculas">
+        <label for="cb3"> MATRIX </label> 
+        <br>
+        <br>
+        <h2><strong><u>VOTACIÓN ABIERTA: </u></strong></h2>
+        <br>
+        <label for="rb1peli rb2peli rb3peli rb4peli">PROXIMA PELICULA A <span>AGREGAR</span>:</label>
+        <br>
+        <br>
+        <input id="rb1peli" type="radio" name="peliculaAgregar"> PIRATAS DEL CARIBE</label>
+        <br>
+        <input id="rb2peli" type="radio" name="peliculaAgregar"> TITANIC</label>
+        <br>
+        <input id="rb3peli" type="radio" name="peliculaAgregar"> NAUFRAGO</label>
+        <br>
+        <input id="rb4peli" type="radio" name="peliculaAgregar"> LA MASCARA</label>
+        <br>
+        <br>    
+        <h2><strong><u>GENEROS FAVORITOS</u></strong></h2>
+        <input id="cb1genero" type="checkbox" name="generos">
+        <label for="cb1genero"> TRAGEDIA </label> 
+        <br>
+        <input id="cb2genero" type="checkbox" name="generos">
+        <label for="cb2genero"> COMEDIA </label> 
+        <br>
+        <input id="cb3genero" type="checkbox" name="generos">
+        <label for="cb3genero"> ROMANCE </label> 
+        <br>
+        <input id="cb4genero" type="checkbox" name="generos">
+        <label for="cb4genero"> SUSPENSO </label>
+        <br>
+        <input id="cb5genero" type="checkbox" name="generos">
+        <label for="cb5genero"> ACCION </label>  
+        <br>
+        <br>
+        <h2><strong><u>GENEROS ODIADOS</u></strong></h2>
+        <input id="cb1generoOdiados" type="checkbox" name="generosOdiados">
+        <label for="cb1generoOdiados"> TRAGEDIA </label> 
+        <br>
+        <input id="cb2generoOdiados" type="checkbox" name="generosOdiados">
+        <label for="cb2generoOdiados"> COMEDIA </label> 
+        <br>
+        <input id="cb3generoOdiados" type="checkbox" name="generosOdiados">
+        <label for="cb3generoOdiados"> ROMANCE </label> 
+        <br>
+        <input id="cb4generoOdiados" type="checkbox" name="generosOdiados">
+        <label for="cb4generoOdiados"> SUSPENSO </label>
+        <br>
+        <input id="cb5generoOdiados" type="checkbox" name="generosOdiados">
+        <label for="cb5generoOdiados"> ACCION </label>  
+        <br>
+        <br>
+        <label for="envio">CONFIRMAR ENVIO DE FORMULARIO: </label>
+        <input class="recuadroRojo" id="envio" type="submit" value="SUBMIT"><br>
+    </form>
+</body>
+</html>
