@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+    color: rgb(0, 104, 14);
+}
+
+h1{
+    text-align: center;
+    font-size: 2cm;
+}
+
+div {
+    text-align: center;
+}
+
+.izquierda{
+    float: left;
+    background-color: antiquewhite;
+}
+
+.derecha{
+    float: right;
+    background-color: antiquewhite;
+}
+
+.alineacionDerecha{
+    text-align: right;
+}
+
+.imgReparto{
+    width: 190px;
+    height: 266px;
+}
+
+#red{
+    color: red;
+}
+
+#neo{
+    text-decoration: underline overline;
+}
+
+#morfeo{
+    font-family: 'Roboto Mono', monospace;
+}
+
+li{
+    list-style-type: disc;
+    list-style-position: inside;
+}
